@@ -127,6 +127,18 @@ class _Home extends State<HomePage>{
       );
   }
 
+  Widget kategori(){
+    return Container(
+      margin: EdgeInsets.only(right: 220),
+      child: Text('Kategori : ', style: TextStyle( fontSize: 20),));
+      }
+
+  Widget berita(){
+    return Container(
+      margin: EdgeInsets.only(right: 250),
+      child: Text('Berita : ', style: TextStyle( fontSize: 20),));
+      }
+
 
 
 
@@ -141,7 +153,11 @@ class _Home extends State<HomePage>{
               SizedBox(height: 10),
               searchbar(),
               SizedBox(height: 10),
+              kategori(),
+              SizedBox(height: 10),
               ListCar(),
+              SizedBox(height: 10),
+              berita(),
               SizedBox(height: 10),
               Cars(),
             ],

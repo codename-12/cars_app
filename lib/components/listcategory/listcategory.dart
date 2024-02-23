@@ -15,7 +15,7 @@ class  _Category extends State<ListCar>{
         child: Row(
           children: [
             Container(
-              margin: EdgeInsets.all(5),
+              margin: EdgeInsets.only(left: 87),
               height: 65,
               width: 120,
               decoration: BoxDecoration(
@@ -26,7 +26,7 @@ class  _Category extends State<ListCar>{
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.fingerprint),
+                    Icon(Icons.car_rental),
                     SizedBox(height: 5),
                     Text('Sport')
 
@@ -45,9 +45,9 @@ class  _Category extends State<ListCar>{
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.fingerprint),
+                    Icon(Icons.airport_shuttle),
                     SizedBox(height: 5),
-                    Text('Polisi')
+                    Text('family')
 
                   ],
                 ),
@@ -66,7 +66,7 @@ class  _Category extends State<ListCar>{
                   children: [
                     Icon(Icons.fingerprint),
                     SizedBox(height: 5),
-                    Text('Polisi')
+                    Text('Off-road')
 
                   ],
                 ),
@@ -85,7 +85,7 @@ class  _Category extends State<ListCar>{
                   children: [
                     Icon(Icons.fingerprint),
                     SizedBox(height: 5),
-                    Text('Polisi')
+                    Text('Van')
 
                   ],
                 ),
@@ -104,7 +104,7 @@ class  _Category extends State<ListCar>{
                   children: [
                     Icon(Icons.fingerprint),
                     SizedBox(height: 5),
-                    Text('Sport')
+                    Text('Carry')
 
                   ],
                 ),
